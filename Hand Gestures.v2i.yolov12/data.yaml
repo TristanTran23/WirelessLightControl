@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ["Grieve", "Love", "Sadness", "Sick"]
+
+roboflow:
+  workspace: hand-gestures
+  project: hand-gestures-qm0dt
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hand-gestures/hand-gestures-qm0dt/dataset/2
+
