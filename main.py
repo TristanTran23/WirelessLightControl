@@ -28,7 +28,7 @@ def main():
                 cv2.putText(frame, text, (x1, y1 - 10), 
                 cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
 
-        cv2.imshow('YOLOv12 Hand Detection', frame)
+        cv2.imshow('shitface', frame)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
